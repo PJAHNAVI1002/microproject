@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+   
+    height: 127px;
+    width: 1728px;
+    background-color: #6F6AF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.icon{
+   
+    font-family: 'Delius Unicase', sans-serif; 
+        font-size: 61.43px;
+        font-weight: 700;
+        line-height: 78.81px;
+        text-align: center;
+        padding: 5px;
+        color: #FFFFFF;
+
+}
+
+.nav-items
+{  
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items > div{
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 36.43px;
+    font-weight: 400;
+    line-height: 47.43px;
+    margin: 15px;
+    padding: 5px 10px
+}
+
+textarea{
+    border-radius: 8px;
+    box-shadow: 0 2px 5 px black;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 50px;
+}
+
+.section1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.section1 img {
+    max-width: 100%; 
+    height: 507px; 
+    border-radius: 8px; 
+}
+
+.box {
+    max-width: 100%;
+    display: flex; 
+    justify-content : center; 
+    padding: 20px; 
+    
+  
+}
+
+.section2 {
+    display: flex; /* Use flexbox for section */
+    flex-direction: row; /* Stack items vertically */
+    gap: 100px; /* Space between items */
+    
+}
+.section2 div {
+    display: flex;
+    background-color: #ffffff; 
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.4);
+    text-size-adjust: center;
+    text-align: center; 
+    min-width: 200px; 
+    color: #ffffff;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#item1 {
+    background-color:  #929DFF;
+    
+  
+}
+#item2 {
+    background-color: #734CF2;
+  
+}
+#item3 {
+    background-color:  #D288FF;
+  
+}
+#item4 {
+    background-color: #000000;
+    
+}
+
+.fixed-image {
+    position: fixed; 
+    bottom: 0; 
+    right: 25%; 
+    max-width: 100%; 
+    height: auto; 
+    
+}
+.sticky-image {
+    position: sticky; 
+    bottom: 0; 
+    right: 0;
+    width: 20px; 
+    height: auto; 
+    float: right; 
+    margin-right: 20px; 
+}
+
+.spacer {
+    height: 2000px; 
+}
+
+.big-box {
+    
+    width: 80%; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    background-color:  #483EFF;
+    ; 
+}
+
+.flex-box {
+    display: flex; 
+    align-items: space-between; 
+    margin-bottom: 20px; 
+    flex-direction: column;
+    border-color: #FFFFFF;
+
+ 
+}
+
+.flex-item {
+    flex: 1; 
+    margin: 0 10px; 
+    padding: 10px; 
+    background-color:  #483EFF;
+    border-color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px; 
+    color: #FFFFFF;
+}
+
+
+.textarea {
+    width: 100%; 
+    height: 100px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    resize: none;
+}
